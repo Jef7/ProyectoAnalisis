@@ -1,8 +1,8 @@
 CREATE TABLE Factura( 
 id_factura NUMBER (10),
   constraint pk_id_factura primary key(id_factura),
-monto NUMBER(10),
-puntos NUMBER(10),
+monto NUMBER(7,2),
+puntos NUMBER(7,2),
 id_promocion NUMBER(10))
   
 

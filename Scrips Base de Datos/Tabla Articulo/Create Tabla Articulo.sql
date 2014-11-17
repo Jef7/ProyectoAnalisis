@@ -3,8 +3,8 @@ id_articulo NUMBER (10),
   constraint pk_id_articulo primary key(id_articulo),
 nombre_articulo VARCHAR(100)
  constraint nombre_articulo_nn not Null,
-precio NUMBER(10),
-puntos NUMBER(10),
+precio NUMBER(7,2),
+puntos NUMBER(7,2),
 cantidad_disponible NUMBER(10))
   
 
