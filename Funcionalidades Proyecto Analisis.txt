@@ -1,0 +1,15 @@
+Las promociones pueden ser por puntos, de manera que cada producto tiene un puntaje definido y dependiendo de los puntos la promoción es aplicable. Varias promociones pueden ser aplicables al mismo tiempo pero debe tomarse la promoción que maximice la ganancia para el usuario.
+
+Las promociones también pueden ser por monto meta. Es decir si el cliente compra mas de cierta cantidad, califica para obtener la promoción.
+
+Ejemplos de promociones.
+Para compras de mas de 100 puntos llévese una camiseta gratis.
+Para compras de mas de 500 puntos obtenga un descuento del 2%
+Para compras de mas de $500 lleve una gorra a mitad de precio.
+Para compras de mas de $1000 llévese una bola gratis.
+
+Promociones
+Tipo Valor: puntos o monto meta
+Tipo ganancia: llévese una articulo gratis, obtenga un descuento del x%, obtenga un descuento de $x, 
+Cantidad Ganancia:
+Objeto Ganancia

@@ -1,0 +1,6 @@
+CREATE USER Analisis
+IDENTIFIED BY Analisis
+DEFAULT TABLESPACE Analisis_datos
+QUOTA 10M ON Analisis_datos
+TEMPORARY TABLESPACE temp
+QUOTA 5M ON system;
