@@ -7,6 +7,7 @@ grant unlimited tablespace to Analisis;  --Permiso para usar cualquier tabla del
 
 --Permisos para crear 
 grant create table to Analisis;
+grant create any sequence to Analisis;
 grant create view to Analisis;
 grant create procedure to Analisis;
 grant create synonym to Analisis;
