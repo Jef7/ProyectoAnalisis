@@ -31,3 +31,24 @@ A continuación, se explica cúal es la estructura general que debe cumplir este
 Ésta aplicación está desarrollada en un entorno Web, para ello fué necesario utilizar los siguientes lengujes de programación: *HTML, CSS, PHP, jQuery, Ajax*. También cuenta con una base de datos, la cúal utilizamos el motor de *Oracle*.<br>
 
 Contacto: *jecam94@hotmail.com, olmanqj@hotmail.com*
+
+*****
+#Casos de Prueba <br>
+
+A continuación se brinda una lista con los casos de prueba de la aplicación, para determinar la validéz de la misma:
+
+|ID   | Descripción del caso  | Resultado esperado  | Estado  |
+|---|---|---|---|
+|  1 | ¿La aplicación es web  | La interfaz es amigable con el usuario?  | Certificado (√)  |
+|  2 | ¿La aplicación cuenta con un modelo de base de datos?  | La inserción de datos son consistentes y están almacenados en una base de datos *(Oracle)*   | Certificado (√)  |
+|3   | ¿El sistema muestra la tabla de artículos?  | Los datos registrados en la base de datos son mostrados en una tabla al usuario  |  Certificado (√) |
+|  4 | ¿El sistema permite crear facturas basadas en la información de la base de datos?  |  Se puede hacer consultas de la tabla artículos para crear una factura al usuario | Certificado (√)  |
+| 5  | ¿El sistema cuenta con una variedad de promociones?  | En la base de datos han sido cargadas las promociones por las que el ususario podrá calificar  |  Certificado (√) |
+| 6  |  ¿La aplicación cuenta con diferentes categorías de promociones para el usuario? | Las promociones han sido definitas tanto por puntaje, como por monto meta  |Certificado (√)   |
+|  7 | ¿El sistema esta implementado con una de las metodologías vistas en clase?  | Está desarrollado con la metodología de Algoritmo Greedy   | Certificado (√)  |
+|  8 | ¿El usuario puede visualizar el estado de su factura?  | Se muestra al usario una tabla con los artículos que ha comprado, así como las cantidades de cada artículo  | Certificado (√)  |
+|  9 |  ¿El usuario puede visualizar el monto total de su factura? | Se muestra al usuario un campo en el cuál se le indica cúal es su monto total en dólares ($) de su factura   | Certificado (√)  |
+| 10  | ¿El usuario puede visualizar el puntaje total de su factura?  |  Se muestra al usuario un campo en el cuál puede ver la cantidad total de puntos obtenidos por sus compras |  Certificado (√)  |
+|  11 | ¿El usario puede saber cúal es la promoción que más le beneficia?  | La aplicación le muestra al usuario cuál es la promoción que maximiza su ganancia   | Certificado (√)  |
+|  12 |  ¿El usuario tiene la posiblidad de generar una nueva factura? | Existe un botón *(REGRESAR)* que le permite al usuario poder crear una nueva factura con diferentes artículos| Certificado (√)   |
+|   |   |   |   |
