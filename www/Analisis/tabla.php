@@ -13,6 +13,8 @@
     <body>
         <h1> <span class="blue">&lt; </span> Punto <span class="blue">&gt; </span> <span class="yellow"> Venta </pan></h1>
         
+        <h1 class="tagArticulos"> Artículos disponibles <span class="triangulo"</span></h1>
+        
         <div class="Scrollbar">
             
         <table class="container">
@@ -42,16 +44,17 @@
         </div>
         
         <label for="idArticulo"> ID Artículo:</label>
-        <input type="text" id="idArticulo" placeholder="ID Artículo">
+        <input type="text" id="idArticulo"  onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="ID Artículo">
         
         <label for="cantidad"> Cantidad:</label>
-        <input type="text" id="cantidad" placeholder="Cantidad">
+        <input type="text" id="cantidad"  onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="Cantidad">
         
         <input type="submit" value="Agregar">
         
         
 <!--        ====================================================================================================================================        -->
         
+        <h1 class="tagArticulos"> Artículos Facturados <span class="triangulo"</span></h1>
         
         <div class="Scrollbar">
             

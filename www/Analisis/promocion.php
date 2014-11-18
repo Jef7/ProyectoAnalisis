@@ -13,6 +13,8 @@
     <body>
         <h1> <span class="blue">&lt; </span> Punto <span class="blue">&gt; </span> <span class="yellow"> Venta </pan></h1>
         
+        <h1 class="tagArticulos"> Factura <span class="triangulo"</span></h1>
+        
         <div class="Scrollbar">
             
         <table class="container">
@@ -41,7 +43,12 @@
             
         </div>
         
-        <label name"promocion" for="promocion"> La mejor promoción es:</label>
+        <h1 class="tagArticulos"> Promoción <span class="triangulo"</span></h1>
+        
+        <label for="promocion"> La mejor promoción es:</label>
+        <input type="text" id="promocion" readonly>
+        
+        <input type="submit" value="Regresar">
 
     </body>
 </html>
