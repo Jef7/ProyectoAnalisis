@@ -12,6 +12,7 @@ Integrantes: <br>
 Proyecto: Punto de Venta <br>
 Noviembre, 2014 <br>
 ****
+#Descripción<br>
 Este proyecto consiste en la implementación de un punto de venta. En el cual, la idea principal del algorítmo, es que se le indique cual es la oferta que mas le beneficie (maximice la ganancia) al usuario.<br>
 
 Las ofertas están definidas en dos grupos:<br>
