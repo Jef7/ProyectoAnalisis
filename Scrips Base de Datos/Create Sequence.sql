@@ -12,11 +12,3 @@ CREATE SEQUENCE secuencia_id_promocion
   INCREMENT BY 1;
   
   
-  
-CREATE SEQUENCE secuencia_id_factura
-  MINVALUE 1
-  MAXVALUE 10000000
-  START WITH 1
-  INCREMENT BY 1;
-
-

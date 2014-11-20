@@ -4,8 +4,7 @@ id_articulo NUMBER (10),
 nombre_articulo VARCHAR(100)
  constraint nombre_articulo_nn not Null,
 precio NUMBER(7,2),
-puntos NUMBER(7,2),
-cantidad_disponible NUMBER(10))
+puntos NUMBER(7,2))
   
 
 
