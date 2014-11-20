@@ -57,7 +57,7 @@ A continuación se brinda una lista con los casos de prueba de la aplicación, p
 *****
 #Manual de Usuario<br>
 
-Para una mejor explicación del funcionamineto de la aplicación, hemos hecho un [Video Tutorial](http://https://www.youtube.com/watch?v=_Znzjuh47Fc&list=UURN-WKm_s2XDs-Zm5oNwMzQ) en el cúal se explica con clariada al usario cómo funciona este proyecto del *Punto de Venta*.<br>
+Para una mejor explicación del funcionamineto de la aplicación, hemos hecho un [Video Tutorial](https://www.youtube.com/watch?v=_Znzjuh47Fc&list=UURN-WKm_s2XDs-Zm5oNwMzQ) en el cúal se explica con clariadad al usario cómo funciona éste proyecto del *Punto de Venta*.<br>
 Además si el usuario queda con alguna duda, puede ponerse en contacto por medio de correo electrónico: *jecam94@hotmail.com, olmanqj@hotmail.com*<br>
 
 ****
@@ -81,7 +81,7 @@ A continuación se muestra una explicación para realizar la importación de la 
 6. Ahora abrimos la consola **CMD**<br>
 7. Digitamos `imp` y enter<br>
 8. Nos pedirá un usuario y una contraseña, los cuales vamos a ingresar las que previamente creamos: `User: Analisis` `Password: Analisis` y enter<br>
-9. Seguidamente nos pedirá el archivo .DMP, el cúal se encuentra dentro de la carpeta de código fuente con el nombre de  **EXPDAT.DMP**. Recomendamos que copie este archivo y lo pegue en la carpeta raíz del disco  **C**. Una vez terminado de copiar este archivo, escribe lo siguiente en la consola:<br> `c:\EXPDAT.DMP` y enter<br>
+9. Seguidamente nos pedirá el archivo .DMP, el cúal se encuentra dentro de la carpeta de código fuente con el nombre de  **EXPDAT.DMP**. Recomendamos que copie este archivo y lo pegue en la carpeta raíz del disco  **C**. Una vez terminado de copiar este archivo, escribe lo siguiente en la consola: `c:\EXPDAT.DMP` y enter<br>
 10. Nos pedirá el tamaño del buffer: vamos a poner 9000 y enter<br>
 11. Luego nos va a pedir varias confirmaciones, de la cuales vamos a **decir que no** a la primera, y a todas las demás le confirmamos que sí.<br>
 12. Con esto, veremos en la consola los resultados de la importación de la base de datos.<br>
